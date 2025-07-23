@@ -47,10 +47,10 @@ h2 {
   justify-content: space-between;
   align-items: center;
 
- h2 {
-  color: #000;
-  margin: 0;
-}
+    h2 {
+       color: #000;
+       margin: 0;
+    }
 }
 
 
@@ -89,16 +89,17 @@ form {
   gap: 10px;
   margin-top: 10px;
 
-input {
-  padding: 10px;
-  flex: 1 1 200px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
+    input {
+      padding: 10px;
+      flex: 1 1 200px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
 }
 
 table {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   margin-top: 20px;
   border-collapse: collapse;
   background-color: white;
@@ -109,7 +110,7 @@ th,
 td {
   padding: 12px 15px;
   border: 1px solid #ddd;
-  text-align: center;
+  text-align: center;  
 }
 
 th {
@@ -119,6 +120,7 @@ th {
 
 img {
   width: 80px;
+  border-radius: 5px;
   height: auto;
 }
 
@@ -133,34 +135,34 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
 
 
-.modal-content {
-  background-color: #fff;
-  margin: 10% auto;
-  padding: 20px;
-  width: 90%;
-  max-width: 500px;
-  border-radius: 10px;
-  position: relative;
+    .modal-content {
+       background-color: #fff;
+       margin: 10% auto;
+       padding: 20px;
+       width: 90%;
+       max-width: 500px;
+       border-radius: 10px;
+       position: relative;
 
 
-h2 {
-  margin-top: 0;
-  color: #333;
-}
+      h2 {
+          margin-top: 0;
+          color: #333;
+      }
 
-.close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 24px;
-  color: #888;
-  cursor: pointer;
-}
+      .close {
+         position: absolute;
+         top: 10px;
+         right: 20px;
+         font-size: 24px;
+         color: #888;
+         cursor: pointer;
+      }
 
-.close:hover {
-  color: #000;
-}
-}
+      .close:hover {
+           color: #000;
+      }
+    }
 }
 
 @media (max-width: 768px) {
