@@ -39,7 +39,6 @@ form.addEventListener("submit", function (e) {
     <td>${description}</td>
     <td>$${parseFloat(price).toFixed(2)}</td>
     <td>
-      <button class="buy-btn">Add to Cart</button>
       <button class="delete-btn">Delete</button>
     </td>
   `;
