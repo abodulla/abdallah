@@ -4,82 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <title>Product Catalog</title>
+    <title>TEST</title>
   </head>
   <body>
-    <aside aria-label="Sidebar">
-      <header>
-        <h2>Sidebar</h2>
-      </header>
-      <nav>
-        <p>catalog</p>
-      </nav>
+    <aside>
+      <h2>Sidebar</h2>
+      <p>catalog</p>
     </aside>
 
     <main>
-      <section aria-labelledby="products-title">
-        <header class="product-details">
-          <h1 id="products-title">Products</h1>
+      <section>
+        <div class="product-details">
+          <h2>Products</h2>
           <button id="openModalBtn">New +</button>
-        </header>
+        </div>
 
         <!-- Modal -->
-        <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div id="modal" class="modal">
           <div class="modal-content">
-            <button class="close" aria-label="Close">&times;</button>
-            <h2 id="modal-title">Add Product</h2>
+            <span class="close">&times;</span>
+            <h2>Add Product</h2>
             <form id="productForm">
-              <label for="name" class="sr-only">Product Name</label>
               <input
                 type="text"
                 id="name"
                 placeholder="Product Name"
                 required
               />
-
-              <label for="description" class="sr-only">Description</label>
               <input
                 type="text"
                 id="description"
                 placeholder="Description"
                 required
               />
-
-              <label for="price" class="sr-only">Price</label>
-              <input
-                type="number"
-                id="price"
-                placeholder="Price"
-                required
-              />
-
-              <label for="image" class="sr-only">Image URL</label>
-              <input
-                type="text"
-                id="image"
-                placeholder="Image URL"
-                required
-              />
-
+              <input type="number" id="price" placeholder="Price" required />
+              <input type="text" id="image" placeholder="Image URL" required />
               <button type="submit" class="add-btn">Add Product</button>
             </form>
           </div>
         </div>
 
-        <article>
-          <table id="productTable">
-            <thead>
-              <tr>
-                <th scope="col">Image</th>
-                <th scope="col">Product Name</th>
-                <th scope="col">Description</th>
-                <th scope="col">Price</th>
-                <th scope="col">Actions</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </article>
+        <table id="productTable">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Product Name</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
       </section>
     </main>
 

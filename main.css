@@ -16,12 +16,13 @@ aside {
   flex: 1;
   min-width: 150px;
   height: auto;
-  padding: 20px;
-  margin: 3px;
-  border-radius: 15px;
+  padding: 10px;
   background-color: #3f508d;
   border-left: 2px solid #ccc;
   color: #ffffff;
+  padding: 20px;
+  margin: 3px;
+  border-radius: 15px;
 
   p {
     padding: 50px;
@@ -46,11 +47,13 @@ h2 {
   justify-content: space-between;
   align-items: center;
 
-  h2 {
-    color: #000;
-    margin: 0;
-  }
+ h2 {
+  color: #000;
+  margin: 0;
 }
+}
+
+
 
 button {
   background-color: #6600ff;
@@ -68,6 +71,8 @@ button {
   margin-top: 10px;
 }
 
+
+
 .delete-btn {
   background: red;
   padding: 6px 12px;
@@ -84,12 +89,12 @@ form {
   gap: 10px;
   margin-top: 10px;
 
-  input {
-    padding: 10px;
-    flex: 1 1 200px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
+input {
+  padding: 10px;
+  flex: 1 1 200px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
 }
 
 table {
@@ -98,18 +103,18 @@ table {
   border-collapse: collapse;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  th,
-  td {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
 
-  th {
-    background-color: #333;
-    color: white;
-  }
+th {
+  background-color: #333;
+  color: white;
 }
 
 img {
@@ -127,33 +132,35 @@ img {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
 
-  .modal-content {
-    background-color: #fff;
-    margin: 10% auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    border-radius: 10px;
-    position: relative;
 
-    h2 {
-      margin-top: 0;
-      color: #333;
-    }
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
 
-    .close {
-      position: absolute;
-      top: 10px;
-      right: 20px;
-      font-size: 24px;
-      color: #888;
-      cursor: pointer;
 
-      &:hover {
-        color: #000;
-      }
-    }
-  }
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  color: #888;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+}
 }
 
 @media (max-width: 768px) {
@@ -161,16 +168,16 @@ img {
     flex-direction: column;
   }
 
-  main {
-    width: 100%;
-    padding: 10px;
-  }
-
   aside {
     width: 100%;
     height: auto;
     text-align: center;
     padding: 10px 0;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
   }
 
   .product-details {
@@ -195,10 +202,10 @@ img {
   .modal {
     display: flex;
     padding: 10px;
+  }
 
-    input {
-      max-height: 50px;
-    }
+  .modal input {
+    max-height: 50px;
   }
 }
 
@@ -222,3 +229,5 @@ img {
     width: 50px;
   }
 }
+
+
