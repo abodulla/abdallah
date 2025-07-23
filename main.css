@@ -54,8 +54,6 @@ h2 {
     }
 }
 
-
-
 button {
   background-color: #6600ff;
   margin: 15px;
@@ -71,8 +69,6 @@ button {
   background: purple;
   margin-top: 10px;
 }
-
-
 
 .delete-btn {
   background: red;
@@ -233,5 +229,3 @@ img {
     width: 50px;
   }
 }
-
-
