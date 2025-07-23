@@ -205,10 +205,11 @@ img {
   .modal {
     display: flex;
     padding: 10px;
-  }
+  
 
-  .modal input {
-    max-height: 50px;
+    input {
+      max-height: 50px;
+    }
   }
 }
 
