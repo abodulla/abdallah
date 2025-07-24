@@ -4,6 +4,8 @@ section {
   margin: auto;
   border-radius: 25px;
   font-family: Arial, sans-serif;
+  min-width: 500px;
+  width: auto;
 }
 
 h2 {
