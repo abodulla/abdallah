@@ -12,50 +12,7 @@
     </aside>
 
     <main>
-      <section>
-        <div class="product-details">
-          <h2>Products</h2>
-          <button id="openModalBtn">New +</button>
-        </div>
-
-        <!-- Modal -->
-        <div id="modal" class="modal">
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Add Product</h2>
-            <form id="productForm">
-              <input
-                type="text"
-                id="name"
-                placeholder="Product Name"
-                required
-              />
-              <input
-                type="text"
-                id="description"
-                placeholder="Description"
-                required
-              />
-              <input type="number" id="price" placeholder="Price" required />
-              <input type="text" id="image" placeholder="Image URL" required />
-              <button type="submit" class="add-btn">Add Product</button>
-            </form>
-          </div>
-        </div>
-
-        <table id="productTable">
-          <thead>
-            <tr>
-              <th>Image</th>
-              <th>Product Name</th>
-              <th>Description</th>
-              <th>Price</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </section>
+      <iframe src="./components/section.html" style="border: none; width: 100%; height: 100%;"></iframe>
     </main>
 
     <script src="index.js"></script>
